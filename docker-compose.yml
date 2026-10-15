@@ -1,0 +1,7 @@
+services:
+  linreg-api:
+    image: ibrahimkayani123/linreg-api:latest
+    container_name: linreg-api
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
